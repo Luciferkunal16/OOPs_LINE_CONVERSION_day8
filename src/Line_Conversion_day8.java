@@ -34,8 +34,10 @@ void equalLine() {
 	System.out.println("Length of Line 2 is "+ lengthLine2);
 	Integer val1=new Integer((int)lengthLine1);
 	Integer val2=new Integer((int)lengthLine2);
-
+System.out.print("Equal=");
 	System.out.println(val1.equals(val2));
+	System.out.print("Compare : ");
+	System.out.print(val2.compareTo(val2));
 }
 public static void main(String[] args) {
 	Line_Conversion_day8 obj=new Line_Conversion_day8();
